@@ -9,12 +9,6 @@ using namespace std;
 
 int main()
 {
-    HANDLE buff = GetStdHandle(STD_OUTPUT_HANDLE);
-    COORD sizeOfBuff;
-    sizeOfBuff.X=50;
-    sizeOfBuff.Y=50;
-    SetConsoleScreenBufferSize(buff,sizeOfBuff);
-
     system("cls");
 
     cout << "You must write <FileName>.txt <- .txt for good working\n" << endl;
